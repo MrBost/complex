@@ -20,5 +20,5 @@ after_success:
     # push them to docker hub
     - docker push mrbost/mutli-client
     - docker push mrbost/multi-nginx
-    - docker push mrbost/multi-server
     - docker push mrbost/multi-worker
+    - docker push mrbost/multi-server
